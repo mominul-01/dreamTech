@@ -1,6 +1,4 @@
-* {
-	font-family: 'Montserrat', sans-serif;
-}
+
 .carousel-item {
 	height: 100vh;
 	min-height: 300px;
@@ -83,6 +81,9 @@
 	font-size: 18px;
 	line-height: 0.3;
 	background: #fff;
+}
+.courses-price{
+	color: #289BDE;
 }
 @media only screen and (max-width: 767px) {
 	.navbar-nav {
