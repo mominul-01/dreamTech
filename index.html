@@ -8,86 +8,93 @@
     <!-- bootstrap css link  -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <!-- external css  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- fontawesome  -->
     <script src="https://kit.fontawesome.com/ec1f367db1.js" crossorigin="anonymous"></script>
+    <!-- animate  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
 </head>
 <body>
 
     <header class="container">
-        <!-- Start navbar  -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-            <div class="container-fluid ">
-              <a class="navbar-brand  fs-1 fw-bold" href="#">Dream Tech</a>
+        <!-- Start navbar  --> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <div class="container">
+            <a class="navbar-brand  fs-1 fw-bold" href="#">Dream Tech</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+      
             
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div
-              class="collapse navbar-collapse justify-content-center"
-              id="navbarCenteredExample"
-            >
-              <!-- Left links -->
-              <ul class="navbar-nav mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active fs-4 fw-semibold" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fs-4 fw-semibold" href="#">Courses </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fs-4 fw-semibold" href="#">Deals </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fs-4 fw-semibold" href="#">Success </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fs-4 fw-semibold" href="#">About  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fs-4 fw-semibold" href="#">Register  </a>
-                </li>
-             
-               
-              </ul>
-              <!-- Left links -->
-            </div>
-              <button type="button" class="btn btn-outline-primary fs-4 fw-semibold">Register</button>
-
-            </div>
+                  <div class="collapse navbar-collapse justify-content-center"
+                  id="navbarSupportedContent">
+                  <!-- Left links -->
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active fs-4 fw-semibold" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-4 fw-semibold" href="#">Courses </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-4 fw-semibold" href="#">Deals </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-4 fw-semibold" href="#">Success </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-4 fw-semibold" href="#">About  </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-4 fw-semibold" href="#">Register  </a>
+                      </li>
+                  
+                    
+                    </ul>
+                  <!-- Left links -->
+                </div>
+                <button type="button" class="btn btn-outline-primary fs-4 fw-semibold">Register</button>
+      
+      
+          </div>
         </nav>
-   
+    
         <!-- End navbar   -->
 
         <!-- images slider  -->
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/cover/cover-1.png" class="d-block  w-100" alt="..." >
-                <div class="carousel-caption d-none d-md-block mb-5 card-img-overlay">
-                  <div class="text-center   justify-content-center align-items-centers my-auto ">
-                    <h1>Get Started Digital <br> Learning</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    <button type="button" class="btn btn-lg ps-5 pe-5" style="background-color: #289BDE;">Register</button>
-                  </div> 
-                  
+                <img class="d-block w-100"src="images/cover/cover-1.png" alt="">
+                <div class="carousel-caption">
+                  <h5 class="animated fadeInDown" style="animation-delay: 1s">Get Started Digital
+                    Learning</h5>
+                  <p class="animated fadeInUp d-none d-md-block" style="animation-delay: 2s">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  <p class="animated fadeInUp" style="animation-delay: 3s"><a href="#">Get Started </a></p>
                 </div>
+                  
               </div>
-              <div class="carousel-item">
-                <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="..." >
-                <div class="carousel-caption text-center d-none d-md-block mb-5">
-                  <h1>Get Started Digital <br> Learning</h1>
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                  <button type="button" class="btn btn-lg ps-5 pe-5" style="background-color: #289BDE;">Register</button>
+              <div class="carousel-item ">
+                <img class="d-block w-100" src="images/cover/cover-2.jpg" alt="">
+                <div class="carousel-caption">
+                  <h5 class="animated fadeInDown" style="animation-delay: 1s">Get Started Digital
+                    Learning</h5>
+                  <p class="animated fadeInUp d-none d-md-block" style="animation-delay: 2s">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  <p class="animated fadeInUp" style="animation-delay: 3s"><a href="#">Get Started </a></p>
+                </div>
+                  
               </div>
+              <div class="carousel-item ">
+                <img class="d-block w-100" src="images/cover/cover-3.jpg" alt="">
+                <div class="carousel-caption">
+                  <h5 class="animated fadeInDown" style="animation-delay: 1s">Get Started Digital
+                    Learning</h5>
+                  <p class="animated fadeInUp d-none d-md-block" style="animation-delay: 2s">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  <p class="animated fadeInUp" style="animation-delay: 3s"><a href="#">Get Started </a></p>
+                </div>
+                  
               </div>
-              <div class="carousel-item">
-                <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption text-center d-none d-md-block mb-5">
-                  <h1>Get Started Digital <br> Learning</h1>
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                  <button type="button" class="btn btn-lg ps-5 pe-5" style="background-color: #289BDE;">Register</button>
-
-              </div>
-              </div>
+            </div>
+            
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -99,6 +106,8 @@
             </button>
           </div>
         <!-- images slider  -->
+
+        
 
 
     </header>
@@ -338,77 +347,61 @@
 
       <!-- Student Feedback  -->
       <div class="mb-5 mt-5 ">
-        <div id="carouselExampleControls" class="carousel slide carousel-dark slide " data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active ">
-              <div class=" overflow-hidden">
-                <div class="row gx-5">
-                  <div class="col bg-white">
-                   <div class="p-3 border rounded-3 ">
-                    <div class="d-flex justify-content-between m-5">
-                      <div>
-                        <img src="images/comma.png" alt="">
-                      </div>
-                      <div>
-                        <span><i class="fa-regular fa-star"></i></span>
-                        <span><i class="fa-regular fa-star"></i></span>
-                        <span><i class="fa-regular fa-star"></i></span>
-                        <span><i class="fa-regular fa-star"></i></span>
-                        <span><i class="fa-regular fa-star"></i></span>
-                      </div>  
-                    </div>
-                    <p class="m-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem. </p>
-                    <div class="d-flex m-5  align-items-center">
-                      <div>
-                        <img src="images/student/student-5.png" alt="" >
-                      </div>
-                      <div class="ms-3">
-                        <h5>Awlad Hossain</h5>
-                        <p>UI Deginer</p>
-                      </div>
-                    </div>
-          
-                   </div>
-                  </div>
-                  <div class="col bg-white">
-                    <div class="p-3 border rounded-3 ">
-                      <div class="d-flex justify-content-between m-5">
-                        <div>
-                          <img src="images/comma.png" alt="">
-                        </div>
-                        <div>
-                          <span><i class="fa-regular fa-star"></i></span>
-                          <span><i class="fa-regular fa-star"></i></span>
-                          <span><i class="fa-regular fa-star"></i></span>
-                          <span><i class="fa-regular fa-star"></i></span>
-                          <span><i class="fa-regular fa-star"></i></span>
-                        </div>  
-                      </div>
-                      <p class="m-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem. </p>
-                      <div class="d-flex m-5  align-items-center">
-                        <div>
-                          <img src="images/student/student-6.png" alt="" >
-                        </div>
-                        <div class="ms-3">
-                          <h5>Shanta Akter</h5>
-                          <p>Graphic Deginer</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+      
+        <div class="row gx-5">
+          <div class="col ">
+           <div class="p-3 border rounded-3 bg-white ">
+            <div class="d-flex justify-content-between m-5">
+              <div>
+                <img src="images/comma.png" alt="">
+              </div>
+              <div>
+                <span><i class="fa-regular fa-star"></i></span>
+                <span><i class="fa-regular fa-star"></i></span>
+                <span><i class="fa-regular fa-star"></i></span>
+                <span><i class="fa-regular fa-star"></i></span>
+                <span><i class="fa-regular fa-star"></i></span>
+              </div>  
+            </div>
+            <p class="m-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem. </p>
+            <div class="d-flex m-5  align-items-center">
+              <div>
+                <img src="images/student/student-5.png" alt="" >
+              </div>
+              <div class="ms-3">
+                <h5>Awlad Hossain</h5>
+                <p>UI Deginer</p>
               </div>
             </div>
   
+           </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="col ">
+            <div class="p-3 border rounded-3 bg-white">
+              <div class="d-flex justify-content-between m-5">
+                <div>
+                  <img src="images/comma.png" alt="">
+                </div>
+                <div>
+                  <span><i class="fa-regular fa-star"></i></span>
+                  <span><i class="fa-regular fa-star"></i></span>
+                  <span><i class="fa-regular fa-star"></i></span>
+                  <span><i class="fa-regular fa-star"></i></span>
+                  <span><i class="fa-regular fa-star"></i></span>
+                </div>  
+              </div>
+              <p class="m-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem. </p>
+              <div class="d-flex m-5  align-items-center">
+                <div>
+                  <img src="images/student/student-6.png" alt="" >
+                </div>
+                <div class="ms-3">
+                  <h5>Shanta Akter</h5>
+                  <p>Graphic Deginer</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -424,67 +417,76 @@
         </div>
         
          <!-- Questions Answer  -->
-      <div class="accordion m-auto" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item mb-4 rounded-3 border">
-          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-              Accordion Item #1
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-            <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <div class="accordion m-auto" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item mb-4 rounded-3 border">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                What is the difference between float flex and grid?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                
+                <strong>Grid is made for two-dimensional layout while Flexbox is for one. </strong>This means Flexbox can work on either row or columns at a time, but Grids can work on both. When working on either element (row or column), you are most associated with the content.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="accordion-item mb-4 rounded-3 border">
-          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-              Accordion Item #2
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-            <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <div class="accordion-item mb-4 rounded-3 border">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                What is The Difference  : TailWind CSS vs Bootstrap
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+
+              <div class="accordion-body">
+                <img src="images/Tailwind-VS-Bootstrap-min-700x394.jpg" alt="">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="accordion-item mb-4 rounded-3 border">
-          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <div class="accordion-item mb-4 rounded-3 border">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                What do you mean by CSS box model?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+               <div class="p-3">
+                <span class="mb-2" > Box model overview </span> <br>
+
+                A box in CSS consists of a content area, which is where any text, images, or other HTML elements are displayed. This is optionally surrounded by padding, a border, and a margin, on one or more sides. The box model <strong> describes how these elements work together to create a box as displayed by CSS.</strong>
+               </div>
+               <img src="images/box_model.png" alt="" width="100%">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="accordion-item mb-4 rounded-3 border ">
-          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <div class="accordion-item mb-4 rounded-3 border">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                What is semantic tags in HTML?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+              <div class="accordion-body">
+                <div>
+                  The semantic HTML tags <strong> help the search engines and other user devices to determine the importance and context of web pages.</strong> The pages made with semantic elements are much easier to read. It has greater accessibility. It offers a better user experience
+                </div>
+                <img src="images/semantic.png" alt="" width="100%">
+              </div>
             </div>
           </div>
+          
         </div>
 
       </div>
-      </div>
-     
-     
     </section>
     <!-- Asked Questions end  -->
 
     <!-- companies start  -->
     <section>
       <h1 class="text-center">Trusted by over 800+ companies </h1>
-      <div class="d-flex p-3 mt-4  align-items-center justify-content-center " style="height: 42;">
+      <div class="d-flex p-3 mt-4  align-items-center justify-content-center ">
         <img class="me-5" src="images/company/company-1.png" alt="">
         <img class="me-5" src="images/company/company-2.png" alt="">
         <img class="me-5"src="images/company/company-3.png" alt="">
